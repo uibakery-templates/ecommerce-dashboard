@@ -1,0 +1,41 @@
+id: '17193402710270.5557834460797473'
+definitionId: progressBar
+parentSlotId: '17193401127740.9325112351392257'
+styles:
+  xl:
+    gridItem:
+      x: 8
+      y: 11
+      w: 16
+      h: 7
+    flex:
+      size:
+        widthValue: 200
+        widthUnit: px
+        heightValue: 28
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+  xs:
+    gridItem:
+      x: 0
+      y: 72
+      w: 24
+      h: 7
+    flex:
+      size:
+        widthValue: 200
+        widthUnit: px
+        heightValue: 28
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+properties:
+  name: progressBar2
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  displayValue: false
+  value: '80'
+actions: {}
+slots: []
